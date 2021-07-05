@@ -1,10 +1,12 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
 import '../Popup.css'
 
-export default function Popup(props) {
-    return (
-        <div className="modal-overlay">
-             <div id="popup-card">
+
+const Popup = (props) => {
+    return ReactDOM.createPortal(
+        <div data-testid="modal" className="modal-overlay">
+            <div id="popup-card">
                 <div className="text-container">
                     <h2>Unfollowing...</h2>
                     <p>Member Tag: <span className="member-tag">{props.memberTag}</span></p>
@@ -14,10 +16,12 @@ export default function Popup(props) {
                 </div>
             
                 <div className="btn-container">
-                    <button className="btn secondary">Nope, cancel</button>
-                    <button className="btn primary">Unfollow</button>
+                    <button className="btn secondary" onClick={props.onCancel}>Nope, cancel</button>
+                    <button className="btn primary" onClick={props.onUnfollow}>Unfollow</button>
                 </div>
             </div>
-        </div>
+        </div>,
+        document.getElementById("modal-root")
     )
 }
+export default Popup
