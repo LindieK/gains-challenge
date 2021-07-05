@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Button Component
 
 You can view a live demo of the code [here](https://lindiek.github.io/gains-challenge/).
 
