@@ -8,15 +8,15 @@ Here are screenshots of the page at different states:
 
 ### Initial State:
 
-! [Initial State](https://github.com/LindieK/gains-challenge/blob/master/src/images/initial%20state.PNG)
+![Initial State](https://github.com/LindieK/gains-challenge/blob/master/src/images/initial%20state.PNG)
 
 ### Popup Active State:
 
-! [Popup State](https://github.com/LindieK/gains-challenge/blob/master/src/images/popup%20state.PNG)
+![Popup State](https://github.com/LindieK/gains-challenge/blob/master/src/images/popup%20state.PNG)
 
 ### Final State (After clicking Unfollow):
 
-! [Final State](https://github.com/LindieK/gains-challenge/blob/master/src/images/final%20state.PNG)
+![Final State](https://github.com/LindieK/gains-challenge/blob/master/src/images/final%20state.PNG)
 
 ## Available Scripts
 
