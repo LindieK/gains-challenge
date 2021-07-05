@@ -17,11 +17,3 @@
   padding-left: 1em;
   padding-right: 1em;
 }
-.extra-boxes{
-  background-color: #333333;
-  width: 30vw;
-  height: 50vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
