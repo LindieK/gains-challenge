@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gains-challenge/static/css/main.bb3044a4.chunk.css",
+    "main.js": "/gains-challenge/static/js/main.093a8a2d.chunk.js",
+    "main.js.map": "/gains-challenge/static/js/main.093a8a2d.chunk.js.map",
+    "runtime-main.js": "/gains-challenge/static/js/runtime-main.eb51a86a.js",
+    "runtime-main.js.map": "/gains-challenge/static/js/runtime-main.eb51a86a.js.map",
+    "static/js/2.9c58160f.chunk.js": "/gains-challenge/static/js/2.9c58160f.chunk.js",
+    "static/js/2.9c58160f.chunk.js.map": "/gains-challenge/static/js/2.9c58160f.chunk.js.map",
+    "static/js/3.6f568c2c.chunk.js": "/gains-challenge/static/js/3.6f568c2c.chunk.js",
+    "static/js/3.6f568c2c.chunk.js.map": "/gains-challenge/static/js/3.6f568c2c.chunk.js.map",
+    "index.html": "/gains-challenge/index.html",
+    "static/css/main.bb3044a4.chunk.css.map": "/gains-challenge/static/css/main.bb3044a4.chunk.css.map",
+    "static/js/2.9c58160f.chunk.js.LICENSE.txt": "/gains-challenge/static/js/2.9c58160f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb51a86a.js",
+    "static/js/2.9c58160f.chunk.js",
+    "static/css/main.bb3044a4.chunk.css",
+    "static/js/main.093a8a2d.chunk.js"
+  ]
+}
