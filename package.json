@@ -26,7 +26,7 @@
   },
   "scripts": {
     "predeploy": " npm run gh-build",
-    "deploy": "gh-pages -d gh-build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "gh-build": "react-scripts build",
     "prebuild": "rimraf dist",
