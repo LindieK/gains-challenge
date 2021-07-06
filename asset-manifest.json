@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-follow-unfollow-modal/static/css/main.8ad81184.chunk.css",
-    "main.js": "/react-follow-unfollow-modal/static/js/main.f040190a.chunk.js",
-    "main.js.map": "/react-follow-unfollow-modal/static/js/main.f040190a.chunk.js.map",
+    "main.js": "/react-follow-unfollow-modal/static/js/main.9bb24ba7.chunk.js",
+    "main.js.map": "/react-follow-unfollow-modal/static/js/main.9bb24ba7.chunk.js.map",
     "runtime-main.js": "/react-follow-unfollow-modal/static/js/runtime-main.6467d03a.js",
     "runtime-main.js.map": "/react-follow-unfollow-modal/static/js/runtime-main.6467d03a.js.map",
     "static/js/2.1a9fddd3.chunk.js": "/react-follow-unfollow-modal/static/js/2.1a9fddd3.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.6467d03a.js",
     "static/js/2.1a9fddd3.chunk.js",
     "static/css/main.8ad81184.chunk.css",
-    "static/js/main.f040190a.chunk.js"
+    "static/js/main.9bb24ba7.chunk.js"
   ]
 }
