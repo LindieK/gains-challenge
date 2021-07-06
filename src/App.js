@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import Popup from './lib/components/Popup';
 import Button from './lib/components/Button'
-import './styles/Popup.css'
-import './styles/App.css'
+import './lib/styles/App.css'
 
 class App extends Component {
   constructor(props) {
