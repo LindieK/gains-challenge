@@ -1,9 +1,18 @@
 {
-  "homepage":"https://lindiek.github.com/gains-challenge",
-  "name": "my-app",
+  "homepage": "https://lindiek.github.io/react-follow-unfollow-modal/",
+  "name": "react-follow-unfollow-modal",
+  "description": "React button that reveals modal for unfollowing on social app",
   "version": "0.1.0",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LindieK/react-follow-unfollow-modal.git"
+  },
+  "keywords": ["react", "components", "ui"],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "private": false,
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -16,10 +25,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": " npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": " npm run gh-build",
+    "deploy": "gh-pages -d gh-build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "gh-build": "react-scripts build",
+    "prebuild": "rimraf dist",
+    "build": "SET NODE_ENV=production && mkdir dist && npx babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -40,5 +51,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "rimraf": "^3.0.2"
   }
 }
