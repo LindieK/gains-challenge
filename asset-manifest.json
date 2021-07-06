@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-follow-unfollow-modal/static/css/main.35dec366.chunk.css",
+    "main.css": "/react-follow-unfollow-modal/static/css/main.8ad81184.chunk.css",
     "main.js": "/react-follow-unfollow-modal/static/js/main.f040190a.chunk.js",
     "main.js.map": "/react-follow-unfollow-modal/static/js/main.f040190a.chunk.js.map",
     "runtime-main.js": "/react-follow-unfollow-modal/static/js/runtime-main.6467d03a.js",
@@ -8,13 +8,13 @@
     "static/js/2.1a9fddd3.chunk.js": "/react-follow-unfollow-modal/static/js/2.1a9fddd3.chunk.js",
     "static/js/2.1a9fddd3.chunk.js.map": "/react-follow-unfollow-modal/static/js/2.1a9fddd3.chunk.js.map",
     "index.html": "/react-follow-unfollow-modal/index.html",
-    "static/css/main.35dec366.chunk.css.map": "/react-follow-unfollow-modal/static/css/main.35dec366.chunk.css.map",
+    "static/css/main.8ad81184.chunk.css.map": "/react-follow-unfollow-modal/static/css/main.8ad81184.chunk.css.map",
     "static/js/2.1a9fddd3.chunk.js.LICENSE.txt": "/react-follow-unfollow-modal/static/js/2.1a9fddd3.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6467d03a.js",
     "static/js/2.1a9fddd3.chunk.js",
-    "static/css/main.35dec366.chunk.css",
+    "static/css/main.8ad81184.chunk.css",
     "static/js/main.f040190a.chunk.js"
   ]
 }
