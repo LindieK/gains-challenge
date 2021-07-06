@@ -2,7 +2,7 @@
   "homepage": "https://lindiek.github.io/react-follow-unfollow-modal/",
   "name": "react-follow-unfollow-modal",
   "description": "React button that reveals modal for unfollowing on social app",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LindieK/react-follow-unfollow-modal.git"
