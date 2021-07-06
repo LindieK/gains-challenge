@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import '../Popup.css'
+import '../../styles/Popup.css'
 
 
 const Popup = (props) => {
