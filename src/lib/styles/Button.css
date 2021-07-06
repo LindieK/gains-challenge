@@ -1,0 +1,12 @@
+.btn{
+    color: #ffffff;
+    border-radius: 7px;
+    padding: 1em 0px;
+    font-weight: 700;
+    border: none
+  }
+  .cta-btn{
+    font-size: 1.5em;/* 22.5px/15px*/
+    padding-left: 1em;
+    padding-right: 1em;
+  }
