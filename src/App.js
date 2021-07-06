@@ -48,9 +48,9 @@ class App extends Component {
     const showModal = this.state.showModal;
     return (
       <div className="App">
-        <Button onClick={this.handleButtonClick} />
+        <Button onClick={this.handleButtonClick} btnText="Unfollow"/>
 
-        {showModal ? <Popup memberTag="@superfunnymemes" onUnfollow={this.handleUnfollowAction} onCancel={this.handleCancelAction} /> : null}
+        {showModal ? <Popup memberTag="@superfunnymemes" onUnfollow={this.handleUnfollowAction} onCancel={this.handleCancelAction} cancelText="Nope, cancel" unfollowText="Unfollow"/> : null}
       </div>
     )
   }
