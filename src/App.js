@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import Popup from './components/Popup';
-import Button from './components/Button'
-import './App.css';
+import Popup from './lib/components/Popup';
+import Button from './lib/components/Button'
+import './styles/App.css'
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +21,10 @@ class App extends Component {
       this.setState({
         showModal: true
       })
+    }
+    else{
+      let btn = document.getElementById("btn1");
+      btn.innerText = "Unfollow";
     }
   }
 
@@ -44,7 +48,7 @@ class App extends Component {
     const showModal = this.state.showModal;
     return (
       <div className="App">
-        <Button onClick={this.handleButtonClick}/>
+        <Button onClick={this.handleButtonClick} />
 
         {showModal ? <Popup memberTag="@superfunnymemes" onUnfollow={this.handleUnfollowAction} onCancel={this.handleCancelAction} /> : null}
       </div>
