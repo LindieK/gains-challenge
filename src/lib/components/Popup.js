@@ -16,8 +16,8 @@ const Popup = (props) => {
                 </div>
             
                 <div className="btn-container">
-                    <button className="btn secondary" onClick={props.onCancel}>Nope, cancel</button>
-                    <button className="btn primary" onClick={props.onUnfollow}>Unfollow</button>
+                    <button className="btn secondary" onClick={props.onCancel}>{props.cancelText}</button>
+                    <button className="btn primary" onClick={props.onUnfollow}>{props.unfollowText}</button>
                 </div>
             </div>
         </div>,

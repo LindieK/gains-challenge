@@ -4,7 +4,7 @@ import '../styles/Button.css'
 const Button = (props) => {
     return (
         <button id="btn1" className="btn primary cta-btn" onClick={props.onClick}>
-            Unfollow
+            {props.btnText}
         </button>
     )
 }
