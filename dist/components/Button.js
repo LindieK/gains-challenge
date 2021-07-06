@@ -16,7 +16,7 @@ const Button = props => {
     id: "btn1",
     className: "btn primary cta-btn",
     onClick: props.onClick
-  }, "Unfollow");
+  }, props.btnText);
 };
 
 var _default = Button;

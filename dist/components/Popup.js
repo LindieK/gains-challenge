@@ -28,10 +28,10 @@ const Popup = props => {
   }, /*#__PURE__*/_react.default.createElement("button", {
     className: "btn secondary",
     onClick: props.onCancel
-  }, "Nope, cancel"), /*#__PURE__*/_react.default.createElement("button", {
+  }, props.cancelText), /*#__PURE__*/_react.default.createElement("button", {
     className: "btn primary",
     onClick: props.onUnfollow
-  }, "Unfollow")))), document.getElementById("modal-root"));
+  }, props.unfollowText)))), document.getElementById("modal-root"));
 };
 
 var _default = Popup;
