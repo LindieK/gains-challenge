@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Popup from './lib/components/Popup';
+import Modal from './lib/components/Modal';
 import Button from './lib/components/Button'
 import './lib/styles/App.css'
 
@@ -51,7 +51,7 @@ class App extends Component {
       <div className="App">
         <Button onClick={this.handleButtonClick} btnText="Unfollow"/>
 
-        {showModal ? <Popup memberTag="@superfunnymemes" onUnfollow={this.handleUnfollowAction} onCancel={this.handleCancelAction} cancelText="Nope, cancel" unfollowText="Unfollow" bodyText={popupText}/> : null}
+        {showModal ? <Modal memberTag="@superfunnymemes" onUnfollow={this.handleUnfollowAction} onCancel={this.handleCancelAction} cancelText="Nope, cancel" unfollowText="Unfollow" bodyText={popupText}/> : null}
       </div>
     )
   }
