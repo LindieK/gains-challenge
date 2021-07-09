@@ -46,11 +46,12 @@ class App extends Component {
   render() {
 
     const showModal = this.state.showModal;
+    const popupText = 'We have to let you know that if you proceed to this action, the member\'s content (posts) will no longer be visible to your feed, and they will disappear from your "Followed Members" list. Are you sure about this?'
     return (
       <div className="App">
         <Button onClick={this.handleButtonClick} btnText="Unfollow"/>
 
-        {showModal ? <Popup memberTag="@superfunnymemes" onUnfollow={this.handleUnfollowAction} onCancel={this.handleCancelAction} cancelText="Nope, cancel" unfollowText="Unfollow"/> : null}
+        {showModal ? <Popup memberTag="@superfunnymemes" onUnfollow={this.handleUnfollowAction} onCancel={this.handleCancelAction} cancelText="Nope, cancel" unfollowText="Unfollow" bodyText={popupText}/> : null}
       </div>
     )
   }
