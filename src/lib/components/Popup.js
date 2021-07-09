@@ -28,9 +28,7 @@ class Popup extends Component {
                     <div className="text-container">
                         <h2>Unfollowing...</h2>
                         <p>Member Tag: <span className="member-tag">{this.props.memberTag}</span></p>
-                        <p>We have to let you know that if you proceed to this action, the member's content (posts) will no longer be visible to your feed, and they will 
-                            disappear from your "Followed Members" list. Are you sure about this?
-                        </p>
+                        <p>{this.props.bodyText}</p>
                     </div>
                 
                     <div className="btn-container">
