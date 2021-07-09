@@ -1,44 +1,18 @@
-import React, { Component } from 'react'
+import { useEffect, useMemo } from 'react'
 import ReactDOM from 'react-dom'
-import '../styles/Popup.css'
 
+export default function Popup({children, parent}) {
+    const el = useMemo(() => document.createElement('div'), []);
 
-const popupRoot = document.getElementById("modal-root");
+    //On mount function
+    useEffect(() => {
+        const target = parent && parent.appendChild ? parent : document.getElementById('modal-root');
+        target.appendChild(el);
 
-class Popup extends Component {
-
-    constructor(props) {
-        super(props)
-    
-        this.el = document.createElement('div');
-    }
-    
-    componentDidMount(){
-        popupRoot.appendChild(this.el);
-    }
-
-    componentWillUnmount(){
-        popupRoot.removeChild(this.el);
-    }
-
-    render() {
-        return ReactDOM.createPortal(
-            <div data-testid="modal" className="modal-overlay">
-                <div id="popup-card">
-                    <div className="text-container">
-                        <h2>Unfollowing...</h2>
-                        <p>Member Tag: <span className="member-tag">{this.props.memberTag}</span></p>
-                        <p>{this.props.bodyText}</p>
-                    </div>
-                
-                    <div className="btn-container">
-                        <button className="btn secondary" onClick={this.props.onCancel}>{this.props.cancelText}</button>
-                        <button className="btn primary" onClick={this.props.onUnfollow}>{this.props.unfollowText}</button>
-                    </div>
-                </div>
-            </div>,
-            this.el
-        )
-    }
+        //On unmount function
+        return () => {
+            target.removeChild(el);
+        };
+    }, [el, parent])
+    return ReactDOM.createPortal(children, el);
 }
-export default Popup
